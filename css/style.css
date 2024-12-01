@@ -1,12 +1,15 @@
-
+.first-container{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
 .first-container .block-left {
     width: 100px;
     height: 50px;
     background-color: green;
     border: 1px solid black;
     float: left;
-    margin-top: 5px;
-    margin-left:5px;
+    margin-top: 25px;
 }
 .first-container .block-right {
     width: 100px;
@@ -14,10 +17,12 @@
     background-color: green;
     border: 1px solid black;
     float: right;
-    margin-top: 5px;
-    margin-left:5px;
+    margin-top: 25px;
 }
 .second-container{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
     margin-top: 50px;
 }
 .second-container .block-left {
@@ -26,7 +31,7 @@
     background-color: green;
     border: 1px solid black;
     float: left;
-    /*margin: 10px;*/
+    margin-top: 25px;
 }
 .second-container .block-right{
     width: 100px;
@@ -34,5 +39,69 @@
     background-color: green;
     border: 1px solid black;
     float: right;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+.third-container{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+.third-container .block-left{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border: 1px solid black;
+    float: left;
+    margin-right: 5px;
+    margin-top: 25px;
+}
+.third-container .block-right {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border: 1px solid black;
+    float: right;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+.right-container{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+
+.right-container .block-small1{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    /*margin-right: 5px;*/
+    margin-top: 25px;
+    border: 1px solid black;
+    float: right;
+}
+
+.right-container .block-small2{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    margin-top: 85px;
+    margin-right: -101px;
+    border: 1px solid black;
+    float: right;
+}
+
+
+.right-container .block-big {
+    height: 110px;
+    width: 110px;
+    background-color: green;
+    margin-top: 25px;
+    margin-right:5px;
+    border: 1px solid black;
+    float: right;
 }
