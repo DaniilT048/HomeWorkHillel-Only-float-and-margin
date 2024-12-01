@@ -73,8 +73,10 @@ body{
 
 .small {
     margin: 0 auto 5px;
-    width: 30%;
-    height: 30%
+    width: 240px;
+    height: calc(120px + 10px + 50px);
+    top: calc(50% - (120px + 10px + 50px) / 2);
+    left: calc(50% - 240px / 2);
 }
 .small .block-big {
     margin-top: 25px;
@@ -91,13 +93,4 @@ body{
     float: right;
 }
 
-/*.center div{*/
-/*    margin: 0 auto 5px;*/
-/*}*/
-/*.center .block-big{*/
-/*    margin: 0 auto;*/
-/*}*/
-/*.small div{*/
-/*    margin: 0 auto;*/
-/*    margin-bottom: 5px;*/
-/*}*/
+
