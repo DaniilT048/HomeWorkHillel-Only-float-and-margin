@@ -1,0 +1,38 @@
+
+.first-container .block-left {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border: 1px solid black;
+    float: left;
+    margin-top: 5px;
+    margin-left:5px;
+}
+.first-container .block-right {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border: 1px solid black;
+    float: right;
+    margin-top: 5px;
+    margin-left:5px;
+}
+.second-container{
+    margin-top: 50px;
+}
+.second-container .block-left {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border: 1px solid black;
+    float: left;
+    /*margin: 10px;*/
+}
+.second-container .block-right{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border: 1px solid black;
+    float: right;
+    margin-left: 10px;
+}
