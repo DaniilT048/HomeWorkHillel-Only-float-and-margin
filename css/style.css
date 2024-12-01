@@ -75,7 +75,7 @@
     background-color: blue;
 }
 
-.right-container .block-small1{
+.right-container .block-small-top{
     height: 50px;
     width: 100px;
     background-color: green;
@@ -85,7 +85,7 @@
     float: right;
 }
 
-.right-container .block-small2{
+.right-container .block-small-bottom{
     height: 50px;
     width: 100px;
     background-color: green;
@@ -104,4 +104,38 @@
     margin-right:5px;
     border: 1px solid black;
     float: right;
+}
+
+.center-container{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+
+.center-container .block-small-top{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    margin-left: 50%;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+.center-container .block-small-bottom{
+    height: 50px;
+    width: 100px;
+    margin-left: 50%;
+    background-color: green;
+    border: 1px solid black;
+}
+
+
+.center-container .block-big {
+    height: 110px;
+    width: 110px;
+    background-color: green;
+    border: 1px solid black;
+    margin-left: 41%;
+    margin-top: -109px;
 }
